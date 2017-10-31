@@ -1,0 +1,264 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ body {
+    overflow-x: hidden;
+ }
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 0;
+    }
+
+    #wrapper.toggled {
+        padding-left: 250px;
+    }
+
+    #sidebar-wrapper {
+        width: 0px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #page-content-wrapper {
+        padding: 0px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+.center-text p{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cross {
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+#film1 {
+  background-color: black;
+  background-image:url("https://cdn.pbrd.co/images/GFUpugT.png");
+  background-size: cover;
+}
+
+.text p {
+  color: white;
+}
+
+#film1:hover {
+    background-image: url("https://media.giphy.com/media/bdfAZTukMNB60/giphy.gif");
+  background-size: cover;
+  background-position: left center;
+}
+
+#film2 {
+  background-color: black;
+  background-image:url("https://cdn.pbrd.co/images/GFLpgjE.png");
+  background-size: cover;
+  background-position: 0% 80%;
+}
+
+#film2:hover {
+    background-image: url("https://media.giphy.com/media/I2K8NPFBdbqZW/giphy.gif");
+  background-size: cover;
+  background-position: left center;
+}
+
+#film3 {
+  background-color: black;
+  background-image:url("https://cdn.pbrd.co/images/GFTY7nK.png");
+  background-size: cover;
+  background-position: 0% 80%;
+}
+
+#film3:hover {
+    background-image: url("https://media.giphy.com/media/x6W0eMMRRb2rm/giphy.gif");
+  background-size: cover;
+  background-position: left center;
+}
+
+#film4 {
+  background-image:url("https://cdn.pbrd.co/images/GFUNHYe.jpg");
+  background-size: cover;
+  background-position: 0% 55%;
+}
+
+#film4:hover {
+  background-size: cover;
+  background-position: 0% 55%;
+}
+
+#film4:hover p#HCText:after {
+  content: "Coming Soon";
+}
+
+#film4:hover span{
+  display: none;
+}
+
+#middle-man{
+  height: 600px;
+}
+
+#CrossText {
+  margin: auto;
+}
+
+#MMText {
+  color: white;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 5em;
+}
+
+#MethodText {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 5em;
+}
+
+#HCText {
+  color: white;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 5em;
+}
+
+b {
+  font-size: 1.5em;
+}
+
+#burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 70px;
+  z-index: 100;
+}
+
+#close {
+  margin-top:15px;
+  width: 25px;
+  height: 30px;
+}
+
+.about-photo {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.ss {
+  margin: 0px;
+  padding: 0px;
+}
+

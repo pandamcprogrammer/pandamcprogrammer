@@ -1,0 +1,220 @@
+body {
+  background-color: black;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    /*background-image: url("https://s-media-cache-ak0.pinimg.com/736x/ea/3b/22/ea3b223f94bb8e484ddf57f5f925f0ff--portrait-photography-male-portrait-photography-black-and-white.jpg");*/
+  
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+
+.logo {
+  background-color: white;
+  width: 2%;
+  display: inline-block;
+  position: absolute;
+
+  top: 25%;
+}
+
+#logo1 {
+  left: 41.5%;
+  height: 50%;
+
+  background-image: url("https://cdn.pbrd.co/images/GDN05DT.jpg");
+  background-position: 0% -55%;
+  background-size: auto 130%;
+  background-color:#7a1519;
+}
+
+#logo2 {
+  left: 46.5%;
+  height: 60%;
+  background-image: url("https://cdn.pbrd.co/images/GIkh9Pt.jpg");
+  background-position: 30% -90%;
+  background-size: auto 130%;
+  background-color: #d4dcea;
+} 
+
+#logo3 {
+  left: 51.5%;
+  height: 60%;
+  background-image: url("https://cdn.pbrd.co/images/GIpiURQ.jpg");
+  /*background-image: url("https://cdn.pbrd.co/images/GG1gprF.jpg");*/
+  background-position: 70% -50%;
+  background-size: auto 120%;
+  background-color:#ecd8bf;
+}
+
+#logo4 {
+  left: 56.5%;
+  height: 50%;
+
+  background-image: url("https://cdn.pbrd.co/images/GG39c3J.jpg");
+  background-position: 50% -10%;
+  background-color:#505a66;
+}
+
+#name {
+  position: absolute;
+  top: 75%;
+  /*border: 1px solid white;*/
+  width: 100%
+}
+
+#scr-down {
+  position: absolute;
+  top: 90%;
+  /*border: 1px solid white;*/
+  width: 100%
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 80px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+#logo-container {
+  height: 70%;
+  width: 100%;
+  /*border: 3px solid blue;*/
+  margin: 0 auto;
+  /*border: 1px solid red;*/
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  /*border: 3px solid red*/
+}
+
+#something {
+  height: 1%;
+}
+
+.white {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  position: absolute;
+}
+
+#projects {
+  color: white;
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+h2 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 550%;
+  color: white;
+  top: 60%;
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.icon {
+  position: inline-block;
+  height: 6vh;
+  margin-right: 5%;
+  margin-left: 5.5%;
+  opacity: 0.2;
+}
+
+#media-container{
+  height: 20%;
+  visibility: hidden;
+  top: 7%;
+  position: absolute;
+  width: 100%;
+}
+
+/*@media screen and (min-width: 480px) {
+    logo {
+        width: 30px;
+    }
+}*/
+
+@media only screen and (max-width: 500px) {
+  .parallax{
+    background-attachment: scroll
+  }
+  #logo1 {
+  left: 30%;
+  background-position: 0% 5%;
+  background-size: auto 130%;
+}
+
+#logo2 {
+  left: 41%;
+  background-position: 0% 0%;
+  background-size: auto 130%;
+} 
+
+#logo3 {
+  left: 52%;
+  background-position: 55% 0%;
+  background-size: auto 130%;
+}
+
+#logo4 {
+  left: 63%;
+  background-position: 0% 0%;
+  background-size: auto 130%;
+}
+.logo {
+  width: 8%;
+}
+  #name {
+    font-size: 2.5em;
+  }
+  h2 {
+    width:1px;
+    word-break:break-word;
+    font-size: 4em;
+    letter-spacing:1em;
+    white-space:pre-wrap;
+    top: 53%;
+    left: 40%;
+  }
+}
+}
+
+#down-arrow {
+  height: 10%;
+  width: 10%;
+}
+
+#down-arrow {
+  height: 50px;
+}
